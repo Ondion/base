@@ -1,0 +1,70 @@
+* {
+    margin: 1px;
+    padding: 1px;
+    border: 1px;
+}
+h2, th, #sec {
+    color: rgb(0, 255, 234);
+    background-color: grey;
+}
+li {
+    text-decoration-line: underline;
+    font-weight: bold;
+    
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    color: green;
+    font-size: 25px;
+}
+a:active {
+    color: white;
+}
+body {
+    font-family: monospace, 'Times New Roman', Times, serif;
+    font-size: small;
+    line-height: 25px;
+    background-color: rgb(253, 251, 251);
+    color: black;
+}
+#cabecalho{
+    display: block;
+    width: 99%;
+    position: fixed;
+    top: 0;
+}
+#minha_foto{
+    display: inline-block;
+    border-radius: 100%;
+    align-items: center;
+}
+#titulo{
+    color: white;
+    background-color: rgba(0, 255, 234, 50);
+    text-align: center;
+    border: solid steelblue 2px;
+}
+.div{
+    display: inline-block;
+    margin: 50px;
+    background-color: rgba(0, 255, 234, 50);
+    border-radius: 5%;
+    padding: 31px;
+}
+.lado-esquerdo{
+
+}
+.lado-direito{
+
+}
+#rodape a:hover {
+    text-decoration: none;
+    font-size: small;
+}
+#rodape{
+    background-color: rgba(0, 255, 234, 50);
+    text-align: center;
+    border: solid steelblue 2px;
+}
