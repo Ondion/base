@@ -6,6 +6,7 @@
 h2, th, #sec {
     color: rgb(0, 255, 234);
     background-color: grey;
+    filter: drop-shadow(2px 4px 6px blue);
 }
 li {
     text-decoration-line: underline;
@@ -34,11 +35,13 @@ body {
     width: 99%;
     position: fixed;
     top: 0;
+    filter: drop-shadow(2px 4px 6px blue);
 }
 #minha_foto{
     display: inline-block;
     border-radius: 100%;
     align-items: center;
+    filter: drop-shadow(2px 4px 6px blue);
 }
 #titulo{
     color: white;
@@ -52,6 +55,7 @@ body {
     background-color: rgba(0, 255, 234, 50);
     border-radius: 5%;
     padding: 31px;
+    filter: drop-shadow(2px 4px 6px blue);
 }
 .lado-esquerdo{
 
@@ -67,4 +71,5 @@ body {
     background-color: rgba(0, 255, 234, 50);
     text-align: center;
     border: solid steelblue 2px;
+    filter: drop-shadow(2px 4px 6px blue);
 }
